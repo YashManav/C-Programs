@@ -10,3 +10,5 @@ git remote add origin https://github.com/YashManav/C-Programs.git
 git branch -M main
 //finally push file
 git push -u origin main
+//tip of current branch is behind
+git push -f origin main
