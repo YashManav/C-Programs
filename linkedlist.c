@@ -33,7 +33,7 @@ void addend()
 void display()
 {
     if(root == NULL)
-    printf("Linked List is empty");
+    printf("Linked List is empty\n");
 
     else{
         struct node* tmp = root;
@@ -124,7 +124,7 @@ void delet()
 {
     if(root == NULL)
     {
-        printf("Linked List is Empty");
+        printf("Linked List is Empty\n");
     }
 
     int pos;
@@ -132,7 +132,7 @@ void delet()
     scanf("%d",&pos);
 
     if(pos>length())
-    printf("Position does not exists");
+    printf("Position does not exists\n");
 
     else{
         int i = 0;
@@ -186,7 +186,7 @@ void main()
         break;
 
         default:
-        printf("Invalid choice");
+        printf("Invalid choice\n");
     }
    }
 }
