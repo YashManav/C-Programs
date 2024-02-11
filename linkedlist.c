@@ -135,6 +135,14 @@ void delet()
     printf("Position does not exists\n");
 
     else{
+        if(pos == 1)
+        {
+            struct node* p = root;
+            root = root->link;
+            p->link = NULL;
+            free(p);
+            return;
+        }
         int i = 0;
         struct node* p = root;
         struct node* q;
